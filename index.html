@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Bem vindo a EeveeTech</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-screwdriver-wrench"> <i class="fa-solid fa-laptop-code"></i>  EeveeTech</i>
+            
+            <ul id="nav_list">
+                <li class="nav-item active">
+                  
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Vendas</a>
+                    <li class="nav-item">
+                        <a href="#menu">Técnico em Informática</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Impressão 3D</a>
+                </li>
+            </ul>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Vendas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Técnico em Informática</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Impressão 3D</a> 
+            </ul>
+
+        
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title"> 
+                 <span>Soluções em Tecnologia e Impressão 3D.</span>
+                </h1>
+                <p class="description">
+                    Atuamos em Brasília e região com serviços de impressão 3D, manutenção de equipamentos, venda de eletrônicos e desenvolvimento de sistemas e páginas web sob medida para você
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="classificados.html" class="btn-default">
+                        Ir para Classificados
+                    </a>
+
+                    <a href="tel:+556199659006" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (61) 9965-9006
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/+5561999659006">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/wwwEeveetech.com.br">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/alexseylevy">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+        
+
+
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; }
+    .slideshow-container {
+      position: relative;
+      max-width:10px;
+      margin: auto;
+    }
+    .slide {
+      display: none;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 103%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    .next {
+      right:-100px;
+      border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    .dot-container {
+      text-align: center;
+      margin-top: 80px;
+    }
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+      background-color: #d69999;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+  <div class="slide">
+    <img src=src/images/first.png alt="Slide 1">
+  </div>
+
+  <div class="slide">
+    <img src=src/images/second.png alt="Slide 2">
+  </div>
+  <div class="slide">
+    <img src= src/images/next.png alt="Slide 3">
+</div>
+    <div class="slide">
+        <img src= src/images/aff.png alt="Slide 4">
+    </div>
+        <div class="slide">
+            <img src=src/images/more.png alt="Slide 5">
+        </div>
+            <div class="slide">
+                <img src=src/images/last.png alt="Slide 6">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    const slides = document.getElementsByClassName("slide");
+    const dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
+  // Auto slide
+  setInterval(function(){
+    plusSlides(1);
+  }, 4000); // muda a cada 4 segundos
+</script>
+    </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Vendas</h2>
+            <h3 class="section-subtitle">Nossos anuncios</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/anunci.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                    Você tambem pode!
+                    </h3>
+
+                    <span class="dish-description">
+                        Anuncie você aqui também, entre em contato!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dockwii.jpeg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Base Suporte Nintendo Wii Vertical Para O Console
+                    </h3>
+
+                    <span class="dish-description">
+                        Base suporte vertical para Nintendo Wii fabricada por impressão 3D em PLA, garantindo leveza e resistência. O modelo foi projetado para encaixe preciso e seguro do console. Impresso com camada de 0,2 mm e preenchimento de 20%, oferecendo boa estabilidade. A peça possui aberturas para ventilação e acabamento limpo.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$60,00</h4>
+                      
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/Port.jpeg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+             Chaveiros e suporte para smartphone
+                    </h3>
+
+                    <span class="dish-description">
+                        Peças de suporte e chaveiros produzidos em impressão 3D com material PLA de alta qualidade. Itens leves, resistentes e com acabamento detalhado. Ideais para organização, decoração ou uso diário. Diversos modelos com encaixe preciso e design moderno. Personalização de cores e formatos disponível sob consulta.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                       
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/stand.jpeg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                       Stand pratileira para Funko e action figures
+                    </h3>
+
+                    <span class="dish-description">
+                        Prateleira stand para exposição de action figures e colecionáveis, produzida em impressão 3D com PLA de alta qualidade. Design moderno e resistente, ideal para destacar suas peças em estantes ou fundos de cenário. Suporta figuras de diversos tamanhos com estabilidade e segurança. Acabamento limpo e encaixe fácil. Personalização de cores e medidas disponível sob consulta.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        
+                    </div>
+                </div>
+            
+            </div>
+            <br>
+           <h2>Classificados</h2>
+
+           <div class="social-media-buttons">
+            <a href="classificados.html">
+                <i class="fa-solid fa-store"></i>
+            </a>  
+        </div>
+        
+               
+       
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/serv.jpeg" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Técnico em Informática
+                </h2>
+                <h3 class="section-subtitle">
+                    Serviços 
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/man.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <i class="fa-solid fa-screwdriver-wrench"> <span> Manutenção em computadores, notebook e servidores. </span></i> </p>
+                            <p>
+                                Limpezas em geral. <br>
+                                Montagem e configuraçao. <br>
+                                Formatação com ou sem backup. <br>
+                                Instalação de Windows, Linux, Office e outros.
+                             </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/upgrade.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                <i class="fa-solid fa-user-plus"> <span> Upgrade de computadores, notebook e videogame.</span></i> </p>
+
+                            <p>
+                             Upgrade de sistema. <br>
+                             Upgrade de Armazenamento - HDD para SDD.<br>
+                             Upgrade de Memoria.<br>
+                             Atualizaçoes em geral.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+        </section>
+    </main>
+
+    <section id="testimonials">
+        <img src="src/images/prit.jpeg" id="testimonial_chef" alt="">
+
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Impressão 3D
+            </h2>
+            <h3 class="section-subtitle">
+                Serviços 
+            </h3>
+
+            <div id="feedbacks">
+                <div class="feedback">
+                    <img src="src/images/avatar3d.png" class="feedback-avatar" alt="">
+
+                    <div class="feedback-content">
+                        <p>
+                            <i class="fa-solid fa-cubes"><span> Impressão do seu projeto em: </span></i> </p>
+                        <p>
+                        PLA <br>
+                            ABS <br>
+                        
+                         </p>
+                    </div>
+                </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+
+  <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Alexsey Levy
+            </span>
+
+            
+
+            <div class="social-media-buttons">
+                    <a href="https://wa.me/+5561999659006">
+                        
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/alexseylevy">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://www.facebook.com/wwwEeveetech.com.br">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
